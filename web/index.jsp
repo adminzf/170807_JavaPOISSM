@@ -11,7 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
-成功了
+  <form action="/javapoi" align="center">
+    <input type="submit" value="submit">
+  </form>
   </body>
 </html>

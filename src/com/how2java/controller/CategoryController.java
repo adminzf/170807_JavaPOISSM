@@ -20,14 +20,14 @@ public class CategoryController {
     @Autowired
     CategoryService categoryService;
 
-    @RequestMapping("/listCategory")
+   /* @RequestMapping("/listCategory")
     public ModelAndView listCategory() {
         ModelAndView mav = new ModelAndView();
         List<VoCategory> cs = categoryService.getList();
         mav.addObject("cs", cs);
         mav.setViewName("/WEB-INF/jsp/listCategory.jsp");
         return mav;
-    }
+    }*/
 
     @RequestMapping("/javapoi")
     public String add() throws IOException {
@@ -38,7 +38,7 @@ public class CategoryController {
                 System.out.println(iterator.next());
             }*/
 
-            return "/index.jsp";
+            return "/success.jsp";
         }
 
     }

@@ -3,7 +3,7 @@
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<table align='center' border='1' cellspacing='0'>
+<%--<table align='center' border='1' cellspacing='0'>
     <tr>
         <td>id</td>
         <td>name</td>
@@ -21,8 +21,8 @@
             <td><a href="change.jsp?id=${c.id}">修改</a></td>
             <td><a href="delete.jsp?id=${c.id}">删除</a></td>
         </tr>
-    </c:forEach>
-    <form action="/javapoi">
+    </c:forEach>--%>
+    <form action="/javapoi" align="center">
         <input type="submit" value="submit">
     </form>
 </table>
