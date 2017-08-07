@@ -1,6 +1,6 @@
-package com.how2java.vo;
+package com.llh.vo;
 
-import com.how2java.pojo.Category;
+import com.llh.pojo.Category;
 
 /**
  * Created by LENOVO on 2017/8/7.

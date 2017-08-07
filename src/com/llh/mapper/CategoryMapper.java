@@ -1,7 +1,7 @@
-package com.how2java.mapper;
+package com.llh.mapper;
 
-import com.how2java.pojo.Category;
-import com.how2java.pojo.CategoryExample;
+import com.llh.pojo.Category;
+import com.llh.pojo.CategoryExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

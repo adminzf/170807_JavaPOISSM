@@ -1,10 +1,10 @@
-package com.how2java.service.impl;
+package com.llh.service.impl;
 
-import com.how2java.mapper.CategoryMapper;
-import com.how2java.pojo.Category;
-import com.how2java.pojo.CategoryExample;
-import com.how2java.service.CategoryService;
-import com.how2java.vo.VoCategory;
+import com.llh.mapper.CategoryMapper;
+import com.llh.pojo.Category;
+import com.llh.pojo.CategoryExample;
+import com.llh.service.CategoryService;
+import com.llh.vo.VoCategory;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
@@ -23,7 +23,7 @@ public class CategoryServiceImpl  implements CategoryService {
     @Autowired
     CategoryMapper categoryMapper;
 
-    @Override
+  /*  @Override
     public List<VoCategory> getList() {
         CategoryExample categoryExample = new CategoryExample();
         List<Category> categoryList= categoryMapper.selectByExample(categoryExample);
@@ -38,7 +38,7 @@ public class CategoryServiceImpl  implements CategoryService {
                voCategoryList.add(voCategory);
            }
            return voCategoryList;
-    }
+    }*/
 
     @Override
     public List<Category> javaPoi()throws  IOException{

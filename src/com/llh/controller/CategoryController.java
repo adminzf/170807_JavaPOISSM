@@ -1,17 +1,14 @@
-package com.how2java.controller;
+package com.llh.controller;
 
 import java.io.IOException;
-import java.util.Iterator;
 import java.util.List;
 
-import com.how2java.vo.VoCategory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
 
-import com.how2java.pojo.Category;
-import com.how2java.service.CategoryService;
+import com.llh.pojo.Category;
+import com.llh.service.CategoryService;
 
 // 告诉spring mvc这是一个控制器类
 @Controller
