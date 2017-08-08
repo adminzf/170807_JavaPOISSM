@@ -28,13 +28,7 @@ public class CategoryController {
 
     @RequestMapping("/javapoi")
     public String add() throws IOException {
-
-            List<Category> list = categoryService.javaPoi();
-            /*Iterator iterator = list.iterator();
-            while (iterator.hasNext()) {
-                System.out.println(iterator.next());
-            }*/
-
+        categoryService.javaPoi();
             return "/success.jsp";
         }
 
